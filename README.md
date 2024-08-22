@@ -1,22 +1,20 @@
 # TS2Vec
 
-This repository contains the official implementation for the paper [TS2Vec: Towards Universal Representation of Time Series](https://arxiv.org/abs/2106.10466) (AAAI-22).
+This repository explores contextual learning for aircraft trajectories. 
 
-## Requirements
+* TY2Vec: [TS2Vec: Towards Universal Representation of Time Series](https://arxiv.org/abs/2106.10466) (AAAI-22).
 
-The recommended requirements for TS2Vec are specified as follows:
-* Python 3.8
-* torch==1.8.1
-* scipy==1.6.1
-* numpy==1.19.2
-* pandas==1.0.1
-* scikit_learn==0.24.2
-* statsmodels==0.12.2
-* Bottleneck==1.3.2
+## Python Environment Setup
 
-The dependencies can be installed by:
-```bash
-pip install -r requirements.txt
+The python environement for this project is managd through [Poetry](https://python-poetry.org/). Poetry can be installed with the following command:
+```sh
+pip install poetry
+poetry --version
+```
+
+Install the Poetry env with:
+```sh
+poetry install
 ```
 
 ## Data
